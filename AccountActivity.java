@@ -1,4 +1,3 @@
-package com.gametech.ui.activities.account;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,15 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.crashlytics.android.Crashlytics;
-import com.gametech.logic.controllers.session.SessionController;
-import com.gametech.logic.events.tracker.EventTracker;
-import com.gametech.logic.utils.Utils;
-import com.gametech.ui.R;
-import com.gametech.ui.activities.core.LoggedInBaseActivity;
-import com.gametech.ui.activities.users.SplashActivity;
-import com.gametech.ui.fragments.account.AccountFragment;
-import com.gametech.ui.fragments.play.OpenBetsFragment;
-import com.gametech.ui.utils.DeepLinkUtils;
 
 
 public class AccountActivity extends LoggedInBaseActivity implements DrawerLayout.DrawerListener {
